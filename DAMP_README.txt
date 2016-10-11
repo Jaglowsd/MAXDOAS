@@ -1,5 +1,5 @@
 /*!
-\file README.txt
+\file DAMP_README.txt
 
 This file is formatted with Doxygen markup so that it can be parsed and
 rendered directly by "make doc" into our Word-formatted user manuals
@@ -13,8 +13,7 @@ The data-collection.cpp file has been modified from its original distribution ve
 which can be found here: https://sourceforge.net/projects/seabreeze/
 This program's orignal file had a simple iterative data collection process to showcase
 how to use the API. Many modifcaitons were made to specialize the program for the particular use 
-of designing a MAXDOAS. Go to \section details for more information about the program. The program is written
-entirely in C++ using SeabreezeWrapperAPI.
+of designing a MAXDOAS - more information in \section maxdoas. Go to \section details for more information about the program. The program is written entirely in C++ using SeabreezeWrapperAPI.
 
 \section license License
 
@@ -25,8 +24,10 @@ in the "LICENSE" file which should accompany this source distribution.
 
 \section maxdoas MAXDOAS
 
-A MAXDOAS is an instrument that detects halogens in the atmosphere by using a spectrometer.
-Incomplete
+A MAXDOAS instrument is basically a UV/visible spectrometer observing scattered light in different viewing directions.
+The basic principle used in Differential Optical Absorbance Spectroscopy (DOAS) is absorption spectroscopy; as light passes through the atmosphere it is partly absorbed by trace constituents according to the Lambert Beer's law and the light that remains allows us to identify what constituents are present in the atmosphere. This method works to identify constituents that are present but not where they are located in the Troposphere or Stratosphere. We can find where they are located by comparing ratios from different elevations. 
+A more thorough description of what a MAXDOAS is can be found http://www.iup.uni-bremen.de/doas/doas_tutorial.htm
+and http://www.iup.uni-bremen.de/doas/maxdoas_instrument.htm.
 
 \section details Program Details
 
