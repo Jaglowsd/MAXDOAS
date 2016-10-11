@@ -1,0 +1,10 @@
+--index 0
+--integration 10000
+--basefile /root/scripts/seabreeze-3.0.10/sample-code/output/data
+--log-level INFO
+--angles 90,45,30,15,05
+--angle-time .05
+--total-time .20
+--MAX-SATURATION 65535
+--upper-saturation-range 80
+--lower-saturation-range 70
