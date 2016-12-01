@@ -43,13 +43,13 @@ To be completed...
 
 \section guide How-to for program
 
-Interfacing with UDOO:                                                                                                                    
+1) Interfacing with UDOO: 
 
-1) Ensure that PuTTY is installed on the computer that is being used to link with the UDOO.
-   Additionally, make sure the UDOO is plugged in, indicated by a green LED on the board 
-   and that a spectrometer is properly plugged into the UDOO, indicatded by lit LEDs.
-   Finally, a sufficient light source to test the program must be provided otherwise
-   the program will exit.
+	Ensure that PuTTY is installed on the computer that is being used to link with the UDOO.
+   	Additionally, make sure the UDOO is plugged in, indicated by a green LED on the board 
+   	and that a spectrometer is properly plugged into the UDOO, indicatded by lit LEDs.
+   	Finally, a sufficient light source to test the program must be provided otherwise
+   	the program will exit.
                                                                                                                                           
 2) Two ways to connect using PuTTY:                   
 
@@ -87,21 +87,21 @@ Interfacing with UDOO:
 
 3) Directory of project:
 
-   Provided location of project is not changed it can be found in
-   ~/scripts/seabreeze-3.0.10/sample-code/cpp and the name of the program is "data-collection.cpp"
+   	Provided location of project is not changed it can be found in
+   	~/scripts/seabreeze-3.0.10/sample-code/cpp and the name of the program is "data-collection.cpp"
 
 4) Before running program:
 
-   If not already done, "ldconfig" must be inputted into the console in order to export the required libraries.
-   Also, there is a parameters file located in the directory previously specified named "parameters.txt"
-   that can be modified to change the behavior of the program. 
+   	If not already done, "ldconfig" must be inputted into the console in order to export the required libraries.
+   	Also, there is a parameters file located in the directory previously specified named "parameters.txt"
+   	that can be modified to change the behavior of the program. 
 
 5) Text Editor:
 
-   When modifying files on the UDOO, you will need a text editor. Both emacs and vi are commonly used editors on linux
-   and both are on the UDOO. Emacs is the only one I have experience with so I will refer to it when editing files. 
-   Open emacs by typing "emacs -nw". There is a tutorial for emacs usage which can be accessed by 
-   pressing ctrl-h t (hold down ctrl press h, then t)
+   	When modifying files on the UDOO, you will need a text editor. Both emacs and vi are commonly used editors on linux
+   	and both are on the UDOO. Emacs is the only one I have experience with so I will refer to it when editing files. 
+   	Open emacs by typing "emacs -nw". There is a tutorial for emacs usage which can be accessed by 
+   	pressing ctrl-h t (hold down ctrl press h, then t)
 
 6) Modifying parameters:
 
@@ -135,19 +135,19 @@ v) Exiting
  
 7) Running program:
 
-   From the specified directory above, run the program by typing 
-   "./data-collection"
+   	From the specified directory above, run the program by typing 
+   	"./data-collection"
 
 8) Stopping program:
 
-   By pressing ctrl-z, the program is forcibly stopped. After doing so the command must be terminated.
-   Type "ps" into the console. A list of active processes with a PID, TTY, TIME, and CMD will appear. To terminate a desired
-   command, type "kill -KILL <PID>" where the PID of the command is placed in the slot for <PID>.
+   	By pressing ctrl-z, the program is forcibly stopped. After doing so the command must be terminated.
+   	Type "ps" into the console. A list of active processes with a PID, TTY, TIME, and CMD will appear. To terminate a desired
+   	command, type "kill -KILL <PID>" where the PID of the command is placed in the slot for <PID>.
 
 9) Output:
 
-   In ~/scripts/seabreeze-3.0.10/sample-code there is a folder named "output" where the output of the program is placed.
-   The location of the output can be modified from the parameters file
+   	In ~/scripts/seabreeze-3.0.10/sample-code there is a folder named "output" where the output of the program is placed.
+   	The location of the output can be modified from the parameters file
    
    
 
